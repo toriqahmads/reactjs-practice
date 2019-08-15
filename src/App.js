@@ -22,6 +22,24 @@ import Form from './components/Form';
 import LifeCycleA from './components/LifeCycleA';
 import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
+import ParentComponent2 from './components/ParentComponent2';
+import RefDemo from './components/RefDemo';
+import FocusInput from './components/FocusInput';
+import FRParentInput from './components/FRParentInput';
+import PortalDemo from './components/PortalDemo';
+import Hero from './components/Hero';
+import ErrorBoundary from './components/ErrorBoundary';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
+import withCounter from './components/withCounter';
+import ClickCounter2 from './components/ClickCounter2';
+import HoverCounter2 from './components/HoverCounter2';
+import User from './components/User';
+import Counters from './components/Counters';
+import { UserProvider } from './components/UserContext';
+import ComponentC from './components/ComponentC';
+import PostList from './components/PostList';
+import PostForm from './components/PostForm';
 
 class App extends Component {
   render() {
@@ -29,8 +47,42 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
+          {/* <ErrorBoundary>
+            <Hero heroName="Batman"></Hero>
+          </ErrorBoundary>
+          <ErrorBoundary>
+            <Hero heroName="Superman"></Hero>
+          </ErrorBoundary>
+          <ErrorBoundary>
+            <Hero heroName="Joker"></Hero>
+          </ErrorBoundary> */}
+            
+          <PostForm />
+          {/* <PostList /> */}
+          {/* <UserProvider value="Toriq">
+            <ComponentC />
+          </UserProvider>
+           */}
+          {/* <Counters render={(count, incrementCount) => (
+            <HoverCounter2 count={count} incrementCount={incrementCount} />
+          )} />
+          <Counters render={(count, incrementCount) => (
+            <ClickCounter2 count={count} incrementCount={incrementCount} />
+          )} /> */}
 
-          <Table />
+          {/* <ClickCounter2 />
+          <HoverCounter2 />
+          <User render={(isLoggedIn) => isLoggedIn ? 'Toriq' : 'Guest'} /> */}
+          {/* <ClickCounter />
+          <HoverCounter /> */}
+          
+          {/* <PortalDemo /> */}
+          {/* <FRParentInput /> */}
+          {/* <FocusInput /> */}
+          {/* <RefDemo /> */}
+
+          {/* <ParentComponent2 /> */}
+          {/* <Table /> */}
 
           {/* <LifeCycleA /> */}
           {/* style from .css */}
