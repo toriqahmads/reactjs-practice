@@ -1,5 +1,5 @@
 {
-  "name": "reactpractice",
+  "name": "reactpractice-toriqahmads",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,6 +16,10 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toriqahmads/reactjs-practice.git"
   },
   "browserslist": {
     "production": [
